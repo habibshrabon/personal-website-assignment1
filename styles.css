@@ -82,9 +82,53 @@ section{
     border-radius:15px;
 }
 
-.footer-area{
-    background-image:url(images/Group_33094_1.png);
+.box-style{
+    float: left;
+    width:28%;
+    height:400px;
+    padding-left:2%;
+    margin-left:2%;
+    background-color:rgba(204, 200, 200, 0.952);
     text-align:center;
-    background-repeat: no-repeat;
-    
+    overflow:hidden;
+    text-align: justify;
+    border-radius:10px;
 }
+.box-style img{
+    display:block;
+    padding:auto;
+    margin:auto;
+}
+.style-img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:850px;
+    height:200px; 
+}
+.style-background{
+    position:relative;
+}
+
+#text{
+    position:absolute;
+    top:30%;
+    left:30%;
+    transform:translate(-50%,-50%);
+    font-size:50px;
+    text-align:center;
+    letter-spacing:-5px;
+}
+#link{
+    position:absolute;
+    top:60%;
+    right:20%;
+    transform:translate(-50%,-50%);
+}
+footer{
+    background-color:salmon;
+    text-align:center;
+}
+
+
+
