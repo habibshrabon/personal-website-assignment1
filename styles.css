@@ -88,16 +88,18 @@ section{
     height:400px;
     padding-left:2%;
     margin-left:2%;
-    background-color:rgba(204, 200, 200, 0.952);
+    background-color:#e8ebf3;
     text-align:center;
     overflow:hidden;
     text-align: justify;
     border-radius:10px;
+    padding-right:1%;
 }
 .box-style img{
     display:block;
     padding:auto;
     margin:auto;
+    width:150px;
 }
 .style-img{
     display:block;
